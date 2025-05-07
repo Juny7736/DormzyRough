@@ -17,8 +17,8 @@ Dormzy is a comprehensive platform designed to help students find housing near t
 - **Frontend**: React, TypeScript, CSS
 - **Backend**: Node.js, Express
 - **Database**: MySQL
-- **Authentication**: Firebase Authentication
-- **Storage**: Firebase Storage
+- **Authentication**: 
+- **Storage**: 
 - **Maps**: Google Maps API
 
 ## Getting Started
@@ -104,10 +104,4 @@ The application uses MySQL for data storage. The database schema is automaticall
 - `POST /api/posts/:id/comments`: Add a comment to a post
 - `GET /api/posts/user/:userId`: Get posts by user ID
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
