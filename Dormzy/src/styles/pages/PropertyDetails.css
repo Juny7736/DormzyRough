@@ -1,0 +1,287 @@
+/* Property Details Page Styles */
+.property-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.secondary-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.secondary-image-container {
+  position: relative;
+  height: 196px;
+}
+
+.secondary-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-count {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.property-header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.location {
+  color: var(--text-light);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.price-section {
+  margin-bottom: 24px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.lease-status {
+  color: var(--text-light);
+}
+
+.stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  font-weight: 600;
+}
+
+.stat-label {
+  color: var(--text-light);
+}
+
+.availability-badge {
+  background: #E8F5E9;
+  color: #2E7D32;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.metadata-grid {
+  background: #F5F5DC;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.metadata-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.metadata-label {
+  color: var(--text-light);
+}
+
+.metadata-value {
+  font-weight: 500;
+}
+
+.lease-term h3 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.lease-dates {
+  color: var(--text-light);
+}
+
+.description-section {
+  margin-bottom: 24px;
+}
+
+.description-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.view-more {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-top: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nearby-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.nearby-places {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nearby-place {
+  display: flex;
+  gap: 12px;
+}
+
+.nearby-icon {
+  width: 24px;
+  height: 24px;
+  background: var(--text-light);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.nearby-title {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.nearby-description {
+  color: var(--text-light);
+}
+
+.host-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 24px;
+}
+
+.host-info {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.host-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.posted-by {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.host-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.host-role {
+  color: var(--text-light);
+}
+
+.message-btn {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .main-image {
+    height: 300px;
+  }
+
+  .secondary-image-container {
+    height: 150px;
+  }
+
+  .property-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .action-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .action-buttons button {
+    flex: 1;
+    min-width: 45%;
+  }
+}

@@ -1,0 +1,168 @@
+/* Houses Page Styles */
+.search-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.search-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1 1 200px;
+  position: relative;
+}
+
+.search-input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-light);
+}
+
+.search-input input,
+.search-input select {
+  width: 100%;
+  padding-left: 40px;
+}
+
+.search-button {
+  flex: 0 0 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-button {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.view-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.view-button {
+  padding: 8px;
+}
+
+.main-content {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.filters-sidebar {
+  flex: 0 0 250px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  height: fit-content;
+}
+
+.filters-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section-title {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.price-range {
+  display: flex;
+  gap: 10px;
+}
+
+.price-input {
+  flex: 1;
+}
+
+.bedrooms-buttons,
+.bathrooms-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.bedroom-button,
+.bathroom-button {
+  flex: 1;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.amenities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.distance-select {
+  width: 100%;
+}
+
+.apply-filters-button {
+  width: 100%;
+}
+
+.properties-container {
+  flex: 1;
+}
+
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.map-view {
+  background: var(--secondary-color);
+  height: 600px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

@@ -1,0 +1,172 @@
+/* Explore Page Styles */
+.post-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.post-user {
+  font-weight: 600;
+}
+
+.post-date {
+  font-size: 14px;
+  color: var(--text-light);
+  margin-left: auto;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  margin-bottom: 20px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.post-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-light);
+  font-size: 14px;
+  transition: color 0.3s;
+  background: none;
+  border: none;
+}
+
+.post-action-btn:hover {
+  color: var(--primary-color);
+}
+
+.comments-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.comment-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.comment-content {
+  flex: 1;
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 12px;
+}
+
+.comment-user {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  font-size: 14px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.comment-input {
+  flex: 1;
+  border-radius: 20px;
+}
+
+.explore-sidebar-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+
+.explore-sidebar-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.explore-sidebar-list {
+  padding-left: 20px;
+}
+
+.explore-sidebar-item {
+  margin-bottom: 10px;
+}
+
+.explore-topic-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.explore-topic-tag {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.explore-members-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.explore-member-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.explore-member-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.explore-member-info {
+  flex: 1;
+}
+
+.explore-member-name {
+  font-weight: 500;
+}
+
+.explore-member-posts {
+  font-size: 12px;
+  color: var(--text-light);
+}

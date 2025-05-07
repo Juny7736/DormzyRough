@@ -1,0 +1,110 @@
+/* Signup page inherits most styles from Login.css */
+.signup-form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.signup-form-col {
+  flex: 1;
+}
+
+.signup-terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.signup-terms-checkbox {
+  margin-right: 10px;
+}
+
+.signup-terms-label {
+  font-size: 14px;
+}
+
+.signup-terms-link {
+  color: var(--primary-color);
+}
+
+.signup-dob-container {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-dob-month {
+  flex: 2;
+}
+
+.signup-dob-day,
+.signup-dob-year {
+  flex: 1;
+}
+
+.signup-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-button {
+  flex: 1;
+}
+
+/* Password strength indicator */
+.password-strength-container {
+  margin-top: 10px;
+}
+
+.password-strength-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.password-strength-text {
+  font-size: 14px;
+}
+
+.password-strength-value {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.password-strength-bar {
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.password-strength-progress {
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.password-requirements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.password-requirement {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.password-requirement-success {
+  background: rgba(51, 204, 51, 0.1);
+  color: var(--success-color);
+}
+
+.password-requirement-error {
+  background: rgba(255, 77, 77, 0.1);
+  color: var(--error-color);
+}
